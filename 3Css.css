@@ -1,0 +1,19 @@
+
+.nav-link{}
+ul{list-style-type: none;}
+li{float: left;
+padding: 16px;
+}
+#header{
+ position: fixed;
+ top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 350px) {
+   li {
+     text-align: center; }
+#video{position: absolute;
+ top: 100px;
+}
+}
